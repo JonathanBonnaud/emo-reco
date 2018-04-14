@@ -19,6 +19,10 @@ python3 emotions_classifier.py NB_CLASSES [-show-plot]
 - -show-plot: (optional)
   * Allows to show the confusion matrix plot.
 
+## Report
+
+School report written in French.
+
 ## Credits
 
 [1] http://www5.cs.fau.de/de/mitarbeiter/steidl-stefan/fau-aibo-emotion-corpus/
