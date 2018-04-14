@@ -1,8 +1,23 @@
 # Automatic emotion recognition in speech
 
+## Introduction
+
 The goal of this project was to reproduce the results in the papers [4] and [5].
-Using corpora AIBO [1] and EMO-DB [2] as training and test datasets.
+Using corpuses AIBO [1] and EMO-DB [2] as training and test datasets.
 Using OpenSmile[3] tool to extract acoustic features.
+
+## To execute the classifier:
+> Should need to download corpuses and OpenSmile (then run it on all corpuses files) and put everything in the right folders.
+
+```
+python3 emotions_classifier.py NB_CLASSES [-show-plot]
+```
+
+- NB_CLASSES: [2, 5] 
+  * Gives what type of classification to do: 2 or 5 classes.
+
+- -show-plot: (optional)
+  * Allows to show the confusion matrix plot.
 
 ## Credits
 
